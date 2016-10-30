@@ -1,0 +1,6 @@
+See file:///D:/Projects/Android/Android%20Studio/Fractaler/app/build/tmp/compileFractalGeneratorArmeabi-v7aDebugSharedLibraryFractalGeneratorArmeabi-v7aDebugSharedLibraryMainC/output.txt for all output for compileFractalGeneratorArmeabi-v7aDebugSharedLibraryFractalGeneratorArmeabi-v7aDebugSharedLibraryMainC.
+compiling fractalGenerator.c successful.
+
+compiling fractal.c successful.
+
+Finished compileFractalGeneratorArmeabi-v7aDebugSharedLibraryFractalGeneratorArmeabi-v7aDebugSharedLibraryMainC, see full log file:///D:/Projects/Android/Android%20Studio/Fractaler/app/build/tmp/compileFractalGeneratorArmeabi-v7aDebugSharedLibraryFractalGeneratorArmeabi-v7aDebugSharedLibraryMainC/output.txt.

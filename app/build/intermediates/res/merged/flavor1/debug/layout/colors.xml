@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/colorsLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/Const"
+        android:layout_width="match_parent"
+        android:layout_height="670dp"
+        android:orientation="vertical" >
+
+                <com.fractaler.Colorbar
+                    android:id="@+id/colorbar"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/resetColors"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/colorsMainLabel" />
+
+                <TextView
+                    android:id="@+id/colorsMainLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/colors_title"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#FF00FF" />
+
+                <TextView
+                    android:id="@+id/redLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/colorsMainLabel"
+                    android:layout_marginTop="35dp"
+                    android:text="@string/red_title"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FF0000" />
+
+                <TextView
+                    android:id="@+id/greenLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/redLabel"
+                    android:layout_marginTop="35dp"
+                    android:text="@string/green_title"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#00FF00" />
+
+                <TextView
+                    android:id="@+id/blueLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/greenLabel"
+                    android:layout_marginTop="35dp"
+                    android:text="@string/blue_title"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#0000FF" />
+
+                <TextView
+                    android:id="@+id/brightLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/blueLabel"
+                    android:layout_marginTop="35dp"
+                    android:text="@string/bright_title"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <SeekBar
+                    android:id="@+id/redBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/redLabel"
+                    android:layout_alignRight="@+id/colorsMainLabel"
+                    android:layout_alignEnd="@+id/colorsMainLabel"
+                    android:layout_toRightOf="@+id/brightLabel"
+                    android:layout_toEndOf="@+id/brightLabel" />
+
+                <SeekBar
+                    android:id="@+id/greenBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/blueLabel"
+                    android:layout_alignLeft="@+id/redBar"
+                    android:layout_alignRight="@+id/redBar"
+                    android:layout_alignStart="@+id/redBar"
+                    android:layout_alignEnd="@+id/redBar" />
+
+                <SeekBar
+                    android:id="@+id/blueBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/brightLabel"
+                    android:layout_alignLeft="@+id/greenBar"
+                    android:layout_alignRight="@+id/greenBar"
+                    android:layout_alignStart="@+id/greenBar"
+                    android:layout_alignEnd="@+id/greenBar" />
+
+                <SeekBar
+                    android:id="@+id/brightBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/brightLabel"
+                    android:layout_alignLeft="@+id/blueBar"
+                    android:layout_alignRight="@+id/blueBar"
+                    android:layout_alignStart="@+id/blueBar"
+                    android:layout_alignEnd="@+id/blueBar" />
+
+                <CheckBox
+                    android:id="@+id/smoothing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/brightBar"
+                    android:layout_alignRight="@+id/brightBar"
+                    android:layout_below="@+id/brightLabel"
+                    android:layout_marginTop="35dp"
+                    android:layout_toEndOf="@+id/redLabel"
+                    android:layout_toRightOf="@+id/redLabel"
+                    android:text="@string/smoothing_title" />
+
+                <TextView
+                    android:id="@+id/colorsInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/smoothing"
+                    android:layout_alignRight="@+id/smoothing"
+                    android:layout_below="@+id/smoothing"
+                    android:layout_marginTop="26dp"
+                    android:layout_toEndOf="@+id/redLabel"
+                    android:layout_toRightOf="@+id/redLabel"
+                    android:text="@string/colorbar_info" />
+
+                <Button
+                    android:id="@+id/colorText"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/colorsInfo"
+                    android:layout_marginTop="35dp"
+                    android:layout_toEndOf="@+id/redLabel"
+                    android:layout_toRightOf="@+id/redLabel"
+                    android:text="@string/set_text_color_btn" />
+
+                <Button
+                    android:id="@+id/resetColors"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:layout_alignTop="@+id/colorText"
+                    android:layout_toEndOf="@+id/colorText"
+                    android:layout_toRightOf="@+id/colorText"
+                    android:text="@string/reset_colorbar_btn" />
+
+                <Button
+                    android:id="@+id/getDelay"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/colorText"
+                    android:layout_toEndOf="@+id/redLabel"
+                    android:layout_toRightOf="@+id/redLabel"
+                    android:text="@string/set_delay_btn" />
+
+                <Button
+                    android:id="@+id/getColors"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:layout_alignLeft="@+id/resetColors"
+                    android:layout_alignStart="@+id/resetColors"
+                    android:layout_below="@+id/resetColors"
+                    android:text="@string/set_colors_btn" />
+
+                <Button
+                    android:id="@+id/exitColors"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/getDelay"
+                    android:layout_marginTop="40dp"
+                    android:text="@string/return_btn" />
+
+    </RelativeLayout>
+
+</ScrollView>

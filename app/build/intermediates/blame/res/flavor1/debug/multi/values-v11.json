@@ -1,0 +1,85 @@
+[
+    {
+        "outputFile": "D:\\Projects\\Android\\Android Studio\\Fractaler\\app\\build\\intermediates\\incremental\\mergeFlavor1DebugResources\\merged.dir\\values-v11\\values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 187
+                },
+                "from": {
+                    "file": "D:\\Projects\\Android\\Android Studio\\Fractaler\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 242,
+                        "endLine": 8,
+                        "endColumn": 12,
+                        "endOffset": 376
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 192,
+                    "endColumn": 68,
+                    "endOffset": 256
+                },
+                "from": {
+                    "file": "D:\\Projects\\Android\\Android Studio\\Fractaler\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 388,
+                        "endColumn": 75,
+                        "endOffset": 459
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 261,
+                    "endColumn": 94,
+                    "endOffset": 351
+                },
+                "from": {
+                    "file": "D:\\Projects\\Android\\Android Studio\\Fractaler\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 554,
+                        "endColumn": 101,
+                        "endOffset": 651
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 356,
+                    "endColumn": 80,
+                    "endOffset": 432
+                },
+                "from": {
+                    "file": "D:\\Projects\\Android\\Android Studio\\Fractaler\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 465,
+                        "endColumn": 87,
+                        "endOffset": 548
+                    }
+                }
+            }
+        ]
+    }
+]

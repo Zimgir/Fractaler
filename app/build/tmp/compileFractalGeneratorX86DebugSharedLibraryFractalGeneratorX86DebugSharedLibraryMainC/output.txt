@@ -1,0 +1,6 @@
+See file:///D:/Projects/Android/Android%20Studio/Fractaler/app/build/tmp/compileFractalGeneratorX86DebugSharedLibraryFractalGeneratorX86DebugSharedLibraryMainC/output.txt for all output for compileFractalGeneratorX86DebugSharedLibraryFractalGeneratorX86DebugSharedLibraryMainC.
+compiling fractalGenerator.c successful.
+
+compiling fractal.c successful.
+
+Finished compileFractalGeneratorX86DebugSharedLibraryFractalGeneratorX86DebugSharedLibraryMainC, see full log file:///D:/Projects/Android/Android%20Studio/Fractaler/app/build/tmp/compileFractalGeneratorX86DebugSharedLibraryFractalGeneratorX86DebugSharedLibraryMainC/output.txt.

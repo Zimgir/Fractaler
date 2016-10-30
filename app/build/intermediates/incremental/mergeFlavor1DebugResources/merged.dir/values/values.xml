@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="color_methods">
+        <item>Colormap</item>
+        <item>Color Delay</item>
+    </string-array>
+    <string-array name="fractal_type">
+        <item>Mandelbrot</item>
+        <item>Julia</item>
+    </string-array>
+    <string-array name="itr_values">
+        <item>Escape Iterations</item>
+        <item>Radius Squared</item>
+    </string-array>
+    <string name="app_name">Fractaler</string>
+    <string name="bail_title">Bail Out:</string>
+    <string name="blue_title">Blue</string>
+    <string name="bright_title">Bright</string>
+    <string name="color_method_title">Color Method:</string>
+    <string name="colorbar_info">* Select a section to edit by clicking on 2 points in the colorbar</string>
+    <string name="colors_btn">Colors</string>
+    <string name="colors_info">Set the colors of the fractals by either editing the colorbar or setting color delay with the sliders. Or set the displayed text color with the sliders\n\n
+        The colorbar gives good control over the colors you will see while zooming.Color delay will set colors according to the ratio of the sliders and might give less predictable colors.</string>
+    <string name="colors_info_title">Colors:</string>
+    <string name="colors_title">Edit Colors</string>
+    <string name="config_btn">Config</string>
+    <string name="config_info">You can edit the fractal parameters in this window.\n\n
+        Type:  determines the iterative function and thus the fractal type.\n\n
+        Iteration Value:  determines the result of the iterative function has impact on the coloring of the image.\n\n
+        Color Method:  determines how to assign a color for each pixel.\n\n
+        Iterations Growth:  determines how fast the maximum number of iterations grows as you zoom in.\n\n
+        Iterations:  The current maximum amount of times (iterations) the main iterative function will preform on each pixel. Determines fractal sharpness The higher the value the slower the image will generate. For each zoom level a minimum amount of iterations is requiered to determine the detail of the shape. If the value is too low for a certain zoom level you might see big spots or even a single color without any detail of a fractal shape.\n\n
+        Bail Out: The square radius of a complex number that stops the iterative function. The number that reaches this radius in the iterative function will be considered not part of the set as it \"escapes\" to infinity. The classic value is 4. Has impact on the coloring of the image.\n\n
+        Radius: The smaller half screen distance from the center of the screen to the edge in the current zoom scale (Complex Plane). Determines the amount of zoom.\n\n
+        Focus X: The X coordinate of the center of the screen in the complex plane. Determines horizontal position.\n\n
+        Focus Y: The Y coordinate of the center of the screen in the complex plane. Determines vertical position.\n\n
+        Const X: The Real part of the complex constant used in the Julia iterative function. Determines the shape of the Julia fractal. Effects on the mandelbrot fractal are not interesting and thus disabled (Simply set to 0). You can set this parameter by clicking anywhere on the screen it will also show you the coordinate on the screen while you hold as Re(z).\n\n
+        Const Y: The Imaginary part of the complex constant used in the Julia iterative function. Determines the shape of the Julia fractal. Effects on the mandelbrot fractal are not interesting and thus disabled (Simply set to 0). You can set this parameter by clicking anywhere on the screen it will also show you the coordinate on the screen while you hold as Im(z).</string>
+    <string name="config_info_title">Config:</string>
+    <string name="config_title">Fractal Config</string>
+    <string name="constx_title">Const X:</string>
+    <string name="consty_title">Const Y:</string>
+    <string name="exit_btn">Exit</string>
+    <string name="focusx_title">Focus X:</string>
+    <string name="focusy_title">Focus Y:</string>
+    <string name="general_info">Fractaler is a Mandelbrot and Julia set viewer developed by Alexey Yakovenko to learn about fractals and programming in the android environment.\n\n
+       You can explore the fractals using touch and pinch zoom or by editing the parameters in the config menu. You can set the image orientation with the sensor of your device. Rotating the image will cause the app to reset to initial position so pick and stick with one.\n\n
+       Note that the zoom limit is at the radius of around 1E-15, beyond that floating point precision breaks and the image will lose information as numbers are too small to handle.\n\n
+       The algorythm used to generate the images is Successive Refinement which allows the user to see a preview of the final image with a quick rough pixel pass. The app was not optimized for speed as zooming is limited anyway.</string>
+    <string name="general_title">General</string>
+    <string name="green_title">Green</string>
+    <string name="info_btn">Info</string>
+    <string name="info_title">Fractaler Info</string>
+    <string name="iterations_title">Iterations:</string>
+    <string name="itr_growth_title">Iterations Growth:</string>
+    <string name="itr_value_title">Iteration Value:</string>
+    <string name="menu_btn">Menu</string>
+    <string name="menu_info_title">Menu</string>
+    <string name="prc_100_title">" 100 %"</string>
+    <string name="radius_title">Radius:</string>
+    <string name="red_title">Red</string>
+    <string name="reset_btn">Reset</string>
+    <string name="reset_colorbar_btn">Reset Colors</string>
+    <string name="reset_info">Resets the current fractal to initial position mentainig the type and colors specified.</string>
+    <string name="reset_title">Reset:</string>
+    <string name="return_btn">Return</string>
+    <string name="save_btn">Save</string>
+    <string name="save_info">Save the current fractal image to device in the folder \"Fractaler\" which will be created in the device storage space. Will present a success or failed message upon saving.</string>
+    <string name="save_title">Save:</string>
+    <string name="set_colors_btn">Set Colors</string>
+    <string name="set_config_btn">Set Configuration</string>
+    <string name="set_delay_btn">Set Delay</string>
+    <string name="set_text_color_btn">Set Text Color</string>
+    <string name="smoothing_title">Color Smoothing</string>
+    <string name="switch_btn">Switch</string>
+    <string name="switch_info">Switch between the Mandelbrot and Julia sets. This button will generate a Julia set with the constant set by the coordinate of your last touch in the Mandelbrot fractal or will return you to the Mandelbrot fractal\n\n
+        You can see the connection between the Mandelbrot and Julia sets by looking a generated Julia sets for different regions of the Mandelbrot set. In each region of the Mandelbrot set the Julia set has simillar shapes of the region. The interesting points for the Julia set are at the interesting Mandelbrot regions at the bounds of the shape.</string>
+    <string name="switch_title">Switch:</string>
+    <string name="type_title">Type:</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="Theme.Default" parent="@android:style/Theme"/>
+    <style name="Theme.FullScreen" parent="@android:style/Theme.NoTitleBar.Fullscreen"/>
+    <style name="Theme.NoTitle" parent="@android:style/Theme.NoTitleBar"/>
+</resources>

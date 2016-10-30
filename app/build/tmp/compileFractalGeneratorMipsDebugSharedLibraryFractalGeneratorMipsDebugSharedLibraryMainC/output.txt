@@ -1,0 +1,6 @@
+See file:///D:/Projects/Android/Android%20Studio/Fractaler/app/build/tmp/compileFractalGeneratorMipsDebugSharedLibraryFractalGeneratorMipsDebugSharedLibraryMainC/output.txt for all output for compileFractalGeneratorMipsDebugSharedLibraryFractalGeneratorMipsDebugSharedLibraryMainC.
+compiling fractalGenerator.c successful.
+
+compiling fractal.c successful.
+
+Finished compileFractalGeneratorMipsDebugSharedLibraryFractalGeneratorMipsDebugSharedLibraryMainC, see full log file:///D:/Projects/Android/Android%20Studio/Fractaler/app/build/tmp/compileFractalGeneratorMipsDebugSharedLibraryFractalGeneratorMipsDebugSharedLibraryMainC/output.txt.

@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\Projects\\Android\\Android Studio\\Fractaler\\app\\build\\intermediates\\res\\merged\\flavor1\\debug\\drawable-ldpi\\icon_save.png",
+        "source": "D:\\Projects\\Android\\Android Studio\\Fractaler\\app\\src\\main\\res\\drawable-ldpi\\icon_save.png"
+    },
+    {
+        "merged": "D:\\Projects\\Android\\Android Studio\\Fractaler\\app\\build\\intermediates\\res\\merged\\flavor1\\debug\\drawable-ldpi\\icon_options.png",
+        "source": "D:\\Projects\\Android\\Android Studio\\Fractaler\\app\\src\\main\\res\\drawable-ldpi\\icon_options.png"
+    },
+    {
+        "merged": "D:\\Projects\\Android\\Android Studio\\Fractaler\\app\\build\\intermediates\\res\\merged\\flavor1\\debug\\drawable-ldpi\\icon_colors.png",
+        "source": "D:\\Projects\\Android\\Android Studio\\Fractaler\\app\\src\\main\\res\\drawable-ldpi\\icon_colors.png"
+    },
+    {
+        "merged": "D:\\Projects\\Android\\Android Studio\\Fractaler\\app\\build\\intermediates\\res\\merged\\flavor1\\debug\\drawable-ldpi\\icon_reset.png",
+        "source": "D:\\Projects\\Android\\Android Studio\\Fractaler\\app\\src\\main\\res\\drawable-ldpi\\icon_reset.png"
+    },
+    {
+        "merged": "D:\\Projects\\Android\\Android Studio\\Fractaler\\app\\build\\intermediates\\res\\merged\\flavor1\\debug\\drawable-ldpi\\icon_shutdown.png",
+        "source": "D:\\Projects\\Android\\Android Studio\\Fractaler\\app\\src\\main\\res\\drawable-ldpi\\icon_shutdown.png"
+    },
+    {
+        "merged": "D:\\Projects\\Android\\Android Studio\\Fractaler\\app\\build\\intermediates\\res\\merged\\flavor1\\debug\\drawable-ldpi\\icon_info.png",
+        "source": "D:\\Projects\\Android\\Android Studio\\Fractaler\\app\\src\\main\\res\\drawable-ldpi\\icon_info.png"
+    },
+    {
+        "merged": "D:\\Projects\\Android\\Android Studio\\Fractaler\\app\\build\\intermediates\\res\\merged\\flavor1\\debug\\drawable-ldpi\\icon_magic.png",
+        "source": "D:\\Projects\\Android\\Android Studio\\Fractaler\\app\\src\\main\\res\\drawable-ldpi\\icon_magic.png"
+    }
+]

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\Projects\Android\Android Studio\Fractaler\app\src\main\jniLibs"/></dataSet><dataSet config="flavor1"><source path="D:\Projects\Android\Android Studio\Fractaler\app\src\flavor1\jniLibs"/></dataSet><dataSet config="debug"><source path="D:\Projects\Android\Android Studio\Fractaler\app\src\debug\jniLibs"/></dataSet><dataSet config="flavor1Debug"><source path="D:\Projects\Android\Android Studio\Fractaler\app\src\flavor1Debug\jniLibs"/></dataSet></merger>

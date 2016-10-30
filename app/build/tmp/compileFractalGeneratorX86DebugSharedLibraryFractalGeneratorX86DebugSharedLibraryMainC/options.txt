@@ -1,0 +1,24 @@
+-x
+c
+-c
+-fPIC
+-DANDROID
+-DANDROID_NDK
+-ffunction-sections
+-funwind-tables
+-no-canonical-prefixes
+-fstack-protector
+-O2
+-g
+-DNDEBUG
+-fomit-frame-pointer
+-fstrict-aliasing
+-funswitch-loops
+-finline-limit=300
+-O0
+-UNDEBUG
+-fno-omit-frame-pointer
+-fno-strict-aliasing
+-I
+"D:\\Projects\\Android\\Android Studio\\Fractaler\\app\\src\\main\\headers"
+--sysroot=C:\\Users\\nefar\\AppData\\Local\\Android\\android-ndk-r12b/platforms/android-19/arch-x86

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Projects\\Android\\Android Studio\\Fractaler\\app\\build\\intermediates\\res\\merged\\flavor1\\debug\\layout\\config.xml",
+        "source": "D:\\Projects\\Android\\Android Studio\\Fractaler\\app\\src\\main\\res\\layout\\config.xml"
+    },
+    {
+        "merged": "D:\\Projects\\Android\\Android Studio\\Fractaler\\app\\build\\intermediates\\res\\merged\\flavor1\\debug\\layout\\info.xml",
+        "source": "D:\\Projects\\Android\\Android Studio\\Fractaler\\app\\src\\main\\res\\layout\\info.xml"
+    },
+    {
+        "merged": "D:\\Projects\\Android\\Android Studio\\Fractaler\\app\\build\\intermediates\\res\\merged\\flavor1\\debug\\layout\\colors.xml",
+        "source": "D:\\Projects\\Android\\Android Studio\\Fractaler\\app\\src\\main\\res\\layout\\colors.xml"
+    },
+    {
+        "merged": "D:\\Projects\\Android\\Android Studio\\Fractaler\\app\\build\\intermediates\\res\\merged\\flavor1\\debug\\layout\\main.xml",
+        "source": "D:\\Projects\\Android\\Android Studio\\Fractaler\\app\\src\\main\\res\\layout\\main.xml"
+    }
+]

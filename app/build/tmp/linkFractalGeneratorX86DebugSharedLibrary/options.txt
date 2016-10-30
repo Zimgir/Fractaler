@@ -1,0 +1,16 @@
+-shared
+-Wl,-soname,libfractalGenerator.so
+-o
+"D:\\Projects\\Android\\Android Studio\\Fractaler\\app\\build\\intermediates\\binaries\\debug\\flavor1\\obj\\x86\\libfractalGenerator.so"
+"D:\\Projects\\Android\\Android Studio\\Fractaler\\app\\build\\intermediates\\objectFiles\\fractalGeneratorX86DebugSharedLibraryMainC\\37f7lrdp513928v3d4p08yhnc\\fractal.o"
+"D:\\Projects\\Android\\Android Studio\\Fractaler\\app\\build\\intermediates\\objectFiles\\fractalGeneratorX86DebugSharedLibraryMainC\\dohb8z64rkxy349nfwib1qwc7\\fractalGenerator.o"
+-Wl,--no-undefined
+-Wl,-z,noexecstack
+-Wl,-z,relro
+-Wl,-z,now
+-Wl,--build-id
+-no-canonical-prefixes
+-landroid
+-llog
+-ljnigraphics
+--sysroot=C:\\Users\\nefar\\AppData\\Local\\Android\\android-ndk-r12b/platforms/android-19/arch-x86

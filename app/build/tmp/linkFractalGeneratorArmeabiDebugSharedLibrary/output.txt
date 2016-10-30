@@ -1,0 +1,4 @@
+See file:///D:/Projects/Android/Android%20Studio/Fractaler/app/build/tmp/linkFractalGeneratorArmeabiDebugSharedLibrary/output.txt for all output for linkFractalGeneratorArmeabiDebugSharedLibrary.
+linking libfractalGenerator.so successful.
+
+Finished linkFractalGeneratorArmeabiDebugSharedLibrary, see full log file:///D:/Projects/Android/Android%20Studio/Fractaler/app/build/tmp/linkFractalGeneratorArmeabiDebugSharedLibrary/output.txt.

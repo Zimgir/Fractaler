@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\Projects\Android\Android Studio\Fractaler\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="D:\Projects\Android\Android Studio\Fractaler\app\build\intermediates\pre-dexed\flavor1\debug\internal_impl-20.0.0_ea257acc5487c11cbe2efcb4e14d76f384462d54.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\nefar\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="D:\Projects\Android\Android Studio\Fractaler\app\build\intermediates\pre-dexed\flavor1\debug\support-annotations-20.0.0_07aa9fef97d066db63c35254e4fb1677e882d0da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Projects\Android\Android Studio\Fractaler\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="D:\Projects\Android\Android Studio\Fractaler\app\build\intermediates\pre-dexed\flavor1\debug\com.android.support-support-v4-20.0.0_95bfa949464d47cf359eddbfa5f625768f278a54.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/Const"
+        android:layout_width="match_parent"
+        android:layout_height="850dp" >
+
+        <TextView
+            android:id="@+id/configTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/config_title"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFF00" />
+
+        <Spinner
+            android:id="@+id/mType"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/configTitle"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/configTitle"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/configTitle"
+            android:layout_marginTop="30dp"
+            android:background="@android:drawable/btn_dropdown"
+            android:entries="@array/fractal_type" />
+
+        <TextView
+            android:id="@+id/tType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/mType"
+            android:layout_alignEnd="@+id/tValue"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/tValue"
+            android:layout_alignTop="@+id/mType"
+            android:text="@string/type_title"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#00FF00" />
+
+        <Spinner
+            android:id="@+id/mValue"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/mType"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/mType"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/mType"
+            android:layout_marginTop="30dp"
+            android:entries="@array/itr_values" />
+
+        <TextView
+            android:id="@+id/tValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/mValue"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/mValue"
+            android:layout_toLeftOf="@+id/mValue"
+            android:layout_toStartOf="@+id/mValue"
+            android:text="@string/itr_value_title"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#00FF00" />
+
+        <Spinner
+            android:id="@+id/mColor"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/mValue"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/mValue"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/mValue"
+            android:layout_marginTop="30dp"
+            android:entries="@array/color_methods" />
+
+        <TextView
+            android:id="@+id/tColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/tValue"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/tValue"
+            android:layout_alignTop="@+id/mColor"
+            android:text="@string/color_method_title"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#00FF00" />
+
+        <SeekBar
+            android:id="@+id/itrBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/configTitle"
+            android:layout_alignEnd="@+id/configTitle"
+            android:layout_below="@+id/tColor"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/tColor"
+            android:layout_toEndOf="@+id/tColor" />
+
+        <TextView
+            android:id="@+id/tBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/itrBar"
+            android:layout_toLeftOf="@+id/itrBar"
+            android:layout_toStartOf="@+id/itrBar"
+            android:text="@string/itr_growth_title"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#00FF00" />
+
+        <EditText
+            android:id="@+id/iterations"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/itrBar"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/itrBar"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/tBar"
+            android:layout_marginTop="30dp"
+            android:background="#0000"
+            android:ellipsize="middle"
+            android:ems="10"
+            android:focusable="false"
+            android:inputType="number"
+            android:maxLines="1"
+            android:textColor="#ffffff" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/tItr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/iterations"
+            android:text="@string/iterations_title"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#00FF00" />
+
+        <EditText
+            android:id="@+id/bail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/iterations"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/iterations"
+            android:layout_below="@+id/iterations"
+            android:layout_marginTop="30dp"
+            android:background="#0000"
+            android:ellipsize="middle"
+            android:ems="10"
+            android:focusable="false"
+            android:inputType="none"
+            android:maxLines="1"
+            android:textColor="#ffffff" >
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/tBail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/bail"
+            android:text="@string/bail_title"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#00FF00" />
+
+        <EditText
+            android:id="@+id/radius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/iterations"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/iterations"
+            android:layout_below="@+id/bail"
+            android:layout_marginTop="30dp"
+            android:background="#0000"
+            android:ellipsize="middle"
+            android:ems="10"
+            android:focusable="false"
+            android:inputType="none"
+            android:maxLines="1"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/tRadius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/radius"
+            android:text="@string/radius_title"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#00FF00" />
+
+        <EditText
+            android:id="@+id/focusX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/radius"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/radius"
+            android:layout_below="@+id/radius"
+            android:layout_marginTop="30dp"
+            android:background="#0000"
+            android:ellipsize="middle"
+            android:ems="10"
+            android:focusable="false"
+            android:inputType="none"
+            android:maxLines="1"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/tFx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/focusX"
+            android:text="@string/focusx_title"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#00FF00" />
+
+        <EditText
+            android:id="@+id/focusY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/focusX"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/focusX"
+            android:layout_below="@+id/focusX"
+            android:layout_marginTop="30dp"
+            android:background="#0000"
+            android:ellipsize="middle"
+            android:ems="10"
+            android:focusable="false"
+            android:inputType="none"
+            android:maxLines="1"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/tFy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/focusY"
+            android:text="@string/focusy_title"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#00FF00" />
+
+        <EditText
+            android:id="@+id/constX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/focusY"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/focusY"
+            android:layout_below="@+id/focusY"
+            android:layout_marginTop="30dp"
+            android:background="#0000"
+            android:ellipsize="middle"
+            android:ems="10"
+            android:focusable="false"
+            android:inputType="none"
+            android:maxLines="1"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/tCx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/constX"
+            android:text="@string/constx_title"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#00FF00" />
+
+        <EditText
+            android:id="@+id/constY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/constX"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/constX"
+            android:layout_below="@+id/constX"
+            android:layout_marginTop="30dp"
+            android:background="#0000"
+            android:ellipsize="middle"
+            android:ems="10"
+            android:focusable="false"
+            android:inputType="none"
+            android:maxLines="1"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/tCy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/constY"
+            android:text="@string/consty_title"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#00FF00" />
+
+        <TextView
+            android:id="@+id/itrConstPrcnt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/itrBar"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/itrBar"
+            android:layout_toEndOf="@+id/itrBar"
+            android:layout_toRightOf="@+id/itrBar"
+            android:text="@string/prc_100_title"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FF0000" />
+
+        <Button
+            android:id="@+id/configOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tCy"
+            android:layout_marginTop="40dp"
+            android:text="@string/set_config_btn" />
+
+        <Button
+            android:id="@+id/exitConfig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/configOk"
+            android:text="@string/return_btn" />
+
+    </RelativeLayout>
+
+</ScrollView>
